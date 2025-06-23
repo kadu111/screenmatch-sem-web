@@ -16,7 +16,6 @@ public class Serie {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
     @Column(unique = false)
     private String titulo;
     private Integer totalTemporadas;
