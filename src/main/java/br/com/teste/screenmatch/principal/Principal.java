@@ -79,6 +79,7 @@ public class Principal {
                     break;
                 case 6:
                     buscarTop5Series();
+                    break;
                 case 7:
                     buscarSeriePorCategoria();
                     break;
